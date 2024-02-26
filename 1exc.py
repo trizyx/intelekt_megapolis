@@ -16,8 +16,6 @@ def replace_null_cord(file_name='space.txt', output_file_name='space_new.txt'):
     xd, yd - координаты вектора направления
 
     """
-    file_name = 'space.txt'
-    output_file_name = 'space_new.txt'
     out_data = []
 
     with open(file=file_name, mode='r', encoding='utf8') as f: #открвыаем файл
