@@ -48,7 +48,6 @@ def replace_null_cord(file_name='space.txt', output_file_name='space_new.txt'):
         writer.writeheader() #записываем заголовки
         writer.writerows(out_data) #записываем данные
 
-    print('ANSWER-----------')
     for i in out_data:#итеративно проходимся по списку данных
         if i['ShipName'][3] == 'V':#если последний символ в коде = V то выводим ответ
             x = i['direction'].split()[0]
